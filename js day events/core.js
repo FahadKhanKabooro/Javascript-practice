@@ -59,17 +59,44 @@
 
             // Setting Feild Values
 
-    // function getName(){
-    //     var abc = document.getElementById("abc")
-    //     console.log(abc.value)
-    // }
-    // abc.value = ""
-    function setName(){
-        var name = document.getElementById('abc');
-        name.value = "fahad"
-        var para = document.getElementById("para");
-        para.innerHTML = "Hello this is Example"
-        para.style.color='blue'
-        para.style.border='2px solid black'
-    }
-    setName()
+//     function getName(){
+//         var abc = document.getElementById("abc")
+//         console.log(abc.value)
+//     }
+//     abc.value = ""
+//     function setName(){
+//         var name = document.getElementById('abc');
+//         name.value = "fahad"
+//         var para = document.getElementById("para");
+//         para.innerHTML = "Hello this is Example"
+//         para.style.color='blue'
+//         para.style.border='2px solid black'
+//     }
+//     setName()
+
+// var name = document.getElementById('name')
+// name.value = ""
+
+
+
+// function getValue(){
+// alert("tested")
+// }
+// function setValue(){
+//         var name = document.getElementById('name')
+//         name.value = "fahad"
+// }
+
+// function setValue(){
+//         var para = document.getElementById("para")
+//         para.innerHTML += "This is example text "
+// }
+
+function onbulb(){
+        var bulb = document.getElementById("bulb")
+        bulb.src="bulf On.png"
+}
+function offbulb(){
+        var bulb = document.getElementById("bulb")
+        bulb.src="bulb-off.png"
+}

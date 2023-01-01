@@ -12,12 +12,12 @@
 //     para.innerHTML = text
 //     para.style.color='yellow'
 // }
-function readMore(){
-    var text = '<ul><li>list 1</li><li>list 1</li><li>list 1</li></ul>';
-    var para = document.getElementById('para')
-    para.innerHTML = text
-    para.style.backgroundColor='red';
-}
+// function readMore(){
+//     var text = '<ul><li>list 1</li><li>list 1</li><li>list 1</li></ul>';
+//     var para = document.getElementById('para')
+//     para.innerHTML = text
+//     para.style.backgroundColor='red';
+// }
 
 //MAnuplation images and text
 //onclick function to hide image on click
@@ -47,18 +47,20 @@ function readMore(){
 // }
 
 // function changeit(){
-    var parent = document.getElementById("parent")
-    var pera = parent.getElementsByTagName('p')
-for(var i =0; i<pera.length;i++){
-    pera[i].style.color='blue'
+//     var parent = document.getElementById("parent")
+//     var pera = parent.getElementsByTagName('p')
+// for(var i =0; i<pera.length;i++){
+//     pera[i].style.color='blue'
     
-}
-function rat(){
-    var img3 = document.getElementById("img3")
-    img3.src='https://th.bing.com/th/id/R.8f66605dc55620d36df3970381accc73?rik=wrWKXT2du09tkg&riu=http%3a%2f%2fallhdwallpapers.com%2fwp-content%2fuploads%2f2015%2f04%2fcars-4.jpg&ehk=rDre2ZW8Em0mw33RYiskqFIgwJZGwD8KVkXZHFU4YKM%3d&risl=&pid=ImgRaw&r=0'
-}
-    // pera[0].style.color='red'
+// }
+// function rat(){
+//     var img3 = document.getElementById("img3")
+//     img3.src='https://th.bing.com/th/id/R.8f66605dc55620d36df3970381accc73?rik=wrWKXT2du09tkg&riu=http%3a%2f%2fallhdwallpapers.com%2fwp-content%2fuploads%2f2015%2f04%2fcars-4.jpg&ehk=rDre2ZW8Em0mw33RYiskqFIgwJZGwD8KVkXZHFU4YKM%3d&risl=&pid=ImgRaw&r=0'
+// }
+//     // pera[0].style.color='red'
     // pera[1].style.color='yellow'
     // pera[2].style.color='blue'
 // }
 
+var a = document.getElementById("parent")
+console.log(document.childNodes[1].childNodes[1])
