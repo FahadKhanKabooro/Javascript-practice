@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <div>
+        <input id="email" type="text" placeholder="email">
+        <br>
+        <input id="password" type="password" placeholder="password">
+        <br>
+        <button onclick="saveData()">Save Data</button>
+    </div>
+    
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js";></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+<script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyCdn4BonM50CiYYSyKPcw7jsnk10nMVNCw",
+    authDomain: "practice-authapp.firebaseapp.com",
+    databaseURL: "https://practice-authapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "practice-authapp",
+    storageBucket: "practice-authapp.appspot.com",
+    messagingSenderId: "327584121234",
+    appId: "1:327584121234:web:addaeaa7a970e98414c14b"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="app.js"></script>
+</html>

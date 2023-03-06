@@ -62,5 +62,7 @@
     // pera[2].style.color='blue'
 // }
 
-var a = document.getElementById("parent")
-console.log(document.childNodes[1].childNodes[1])
+// var list = document.getElementById("li1")
+// console.log(list)
+var list = document.getElementsByTagName("li")
+console.log(list.length)

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Email/PAssord</title>
+</head>
+<body>
+    <input type="text" placeholder="username" id="username">
+    <br>
+    <input type="text" placeholder="email" id="email">
+    <br>
+    <input type="text" placeholder="password here" id="Password">
+    <br>
+    <input type="radio" value="admin" id="admin"><label for="admin">admin</label>
+    <input type="radio" value="user" id="user"><label for="user">user</label>
+    <br>
+    <input type="button" value="sign up" id="signup">
+    <br>
+    <input type="button" value="sign in" id="signin">
+
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+<script type="module">
+    const firebaseConfig = {
+  apiKey: "AIzaSyC5LPb1ZZdUzZK98TznOkeTufY3gq4hdgA",
+  authDomain: "auth-b1974.firebaseapp.com",
+  projectId: "auth-b1974",
+  databaseURL: "https://authapp-300d2-default-rtdb.asia-southeast1.firebasedatabase.app",
+  storageBucket: "auth-b1974.appspot.com",
+  messagingSenderId: "1044904014640",
+  appId: "1:1044904014640:web:1373d7f3737034951c4ef5"
+};
+firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="main.js"></script>
+</html>
